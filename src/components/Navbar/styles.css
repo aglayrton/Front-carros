@@ -1,0 +1,30 @@
+.navbar-toggler-icon {
+    background-image: url("assets/images/main-hamburguer.svg");
+}
+
+.main-nav{
+    background-color:  #F78B00;
+    padding-left: 88px;
+    min-height: 70px;
+}
+
+.nav-logo{
+    color: #00285F;
+}
+
+.main-menu{
+    padding-right: 88px;
+    display: flex;
+    font-size: 18px;
+    width: 270px;
+    justify-content: space-between;
+}
+
+.main-menu a{
+    color: #00285F;
+}
+
+.main-menu a.active{
+    font-weight: bold;
+    color: #00285F;
+}

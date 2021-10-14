@@ -1,0 +1,99 @@
+.home-container {
+  padding: 20px;
+}
+
+.home-card {
+  border-radius: 20px;
+  background-color: #00285f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container-image svg {
+  width: 100%;
+  height: auto;
+  padding: 62px 28px 0 28px;
+}
+
+.home-container-text {
+  text-align: center;
+}
+
+.home-container-text h2 {
+  width: 250px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 35px 10px 5px 10px;
+}
+
+.home-container-text p {
+  width: 260px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 10px 40px 10px;
+}
+
+/*CONTAINER PESQUISA*/
+
+.home-card-button {
+  border-radius: 20px;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 0 0;
+}
+
+.home-container-button {
+  padding: 20px 0 0 0;
+}
+
+.home-container-text-search p {
+  padding: 9px 20px 25px 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/*Breakpoint*/
+
+@media (min-width: 576px) {
+  .home-container-image svg {
+    width: 350px;
+    height: 200px;
+    padding: 22px 10px 0 10px;
+  }
+
+  .home-container-text h2 {
+    width: 350px;
+    font-size: 26px;
+    padding: 19px 10px 0px 10px;
+  }
+
+  .home-container-text p {
+    width: 350px;
+    font-size: 16px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .home-card-button {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .home-container-button {
+    padding: 40px 20px 40px 0;
+  }
+  
+  .home-container-text-search p {
+    padding: 40px 0px 40px 0px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  
+}
