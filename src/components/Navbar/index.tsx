@@ -22,17 +22,17 @@ const Navbar = () => {
           </button>
 
           <div
-            className="collapse navbar-collapse justify-content-end"
+            className="collapse navbar-collapse justify-content-center"
             id="dscatalog-navbar"
           >
             <ul className="navbar-nav offset-md-2 main-menu">
               <li>
                 <a href="link" className="active">
-                  HOME
+                  Home
                 </a>
               </li>
               <li>
-                <a href="link">CATÁLOGO</a>
+                <a href="link">Catálogo</a>
               </li>
             </ul>
           </div>

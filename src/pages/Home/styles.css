@@ -21,11 +21,11 @@
 }
 
 .home-container-text h2 {
-  width: 250px;
+  width: 260px;
   color: #fff;
   font-weight: bold;
-  font-size: 18px;
-  padding: 35px 10px 5px 10px;
+  font-size: 20px;
+  padding: 35px 5px 5px 5px;
 }
 
 .home-container-text p {
@@ -62,20 +62,19 @@
 @media (min-width: 576px) {
   .home-container-image svg {
     width: 350px;
-    height: 200px;
-    padding: 22px 10px 0 10px;
+    padding: 22px 2px 0 2px;
   }
 
   .home-container-text h2 {
-    width: 350px;
-    font-size: 26px;
-    padding: 19px 10px 0px 10px;
+    width: 506px;
+    font-size: 36px;
+    padding: 19px 5px 5px 5px;
   }
 
   .home-container-text p {
-    width: 350px;
-    font-size: 16px;
-    padding: 0px 10px 0px 10px;
+    width: 506px;
+    font-size: 18px;
+    padding: 0px 30px 20px 30px;
   }
 
   .home-card-button {
@@ -95,5 +94,96 @@
     font-weight: 400;
   }
 
+
+}
+
+@media (min-width: 768px){
+
+  .home-container-image svg {
+    width: 450px;
+    padding: 62px 28px 0px 28px;
+  }
   
+  .home-container-text h2 {
+    padding: 40px 0 0 0;
+  }
+  
+  .home-container-text p {
+    padding: 0 50px 50px 50px;
+  }
+
+  .home-card-button {
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .home-container-button {
+    padding: 40px 20px 40px 60px;
+  }
+  
+}
+
+@media (min-width: 992px){
+  
+  .home-container-image svg {
+    width: 506px;
+  }
+  
+  .home-container-text h2 {
+    padding: 42px 0 0 0;
+  }
+  
+  .home-container-text p {
+    padding: 0 50px 100px 50px;
+  }
+
+  .home-card-button {
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .home-container-button {
+    padding: 40px 20px 40px 60px;
+  }
+}
+
+@media (min-width: 1280px){
+
+  .home-card {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: baseline;
+    margin: 20px 150px 20px 150px;
+  }
+
+  .home-container-text {
+    text-align: left;
+  }
+
+  .home-container-image svg {
+    width: 506px;
+    padding: 0;
+    margin: 80px 0 80px 0;
+  }
+  
+  .home-container-text h2 {
+    padding: 100px 0 0 0px;
+  }
+  
+  .home-container-text p {
+    padding: 0 50px 100px 0px;
+    font-size: 22px;
+  }
+
+  /*car*/
+
+  .home-card-button {
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 20px 150px 20px 150px;
+  }
+
+  .home-container-button {
+    padding: 40px 20px 40px 80px;
+  }
 }

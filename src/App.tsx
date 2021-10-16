@@ -1,4 +1,3 @@
-import Navbar from 'components/Navbar';
 import React from 'react';
 import './assets/styles/custom.scss';
 import './App.css';
