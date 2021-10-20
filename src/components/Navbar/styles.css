@@ -17,8 +17,8 @@
     display: flex;
     font-size: 18px;
     width: 270px;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .main-menu a{

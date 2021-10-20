@@ -6,7 +6,6 @@ import Button from "components/Button";
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="home-container">
 
         <div className="home-card">

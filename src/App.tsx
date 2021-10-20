@@ -1,11 +1,12 @@
 import React from 'react';
 import './assets/styles/custom.scss';
 import './App.css';
-import Home from 'pages/Home';
+//import Cars from 'pages/Cars';
+import Routes from 'Router';
 
 function App() {
   return (
-    <Home />
+    <Routes />
   );
 }
 

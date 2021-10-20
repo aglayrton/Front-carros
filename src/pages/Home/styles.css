@@ -14,6 +14,7 @@
   width: 100%;
   height: auto;
   padding: 62px 28px 0 28px;
+
 }
 
 .home-container-text {
@@ -26,6 +27,7 @@
   font-weight: bold;
   font-size: 20px;
   padding: 35px 5px 5px 5px;
+
 }
 
 .home-container-text p {
@@ -34,6 +36,7 @@
   font-weight: 400;
   font-size: 14px;
   padding: 0 10px 40px 10px;
+
 }
 
 /*CONTAINER PESQUISA*/
@@ -153,7 +156,45 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: baseline;
-    margin: 20px 150px 20px 150px;
+    margin: 20px 140px 20px 140px;
+  }
+
+  .home-container-text {
+    text-align: left;
+  }
+
+  .home-container-image svg {
+    width: 350px;
+    padding: 0;
+    margin: 80px 0 80px 0;
+  }
+  
+  .home-container-text h2 {
+    font-size: 36px;
+  }
+  
+  .home-container-text p {
+    padding: 0 50px 100px 0px;
+    font-size: 20px;
+  }
+
+  /*car*/
+
+  .home-card-button {
+    justify-content: left;
+    align-items: baseline;
+    margin: 20px 140px 0 140px;
+  }
+
+}
+
+@media (min-width: 1400px){
+
+  .home-card {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: baseline;
+    margin: 20px 140px 20px 140px;
   }
 
   .home-container-text {
@@ -167,23 +208,20 @@
   }
   
   .home-container-text h2 {
-    padding: 100px 0 0 0px;
+    font-size: 36px;
   }
   
   .home-container-text p {
     padding: 0 50px 100px 0px;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   /*car*/
-
-  .home-card-button {
-    justify-content: flex-start;
-    align-items: baseline;
-    margin: 20px 150px 20px 150px;
-  }
-
   .home-container-button {
-    padding: 40px 20px 40px 80px;
+    padding: 40px 20px 40px 100px;
   }
+
+
 }
+
+

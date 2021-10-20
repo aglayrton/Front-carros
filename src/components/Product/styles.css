@@ -1,0 +1,24 @@
+.product-price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-price-container h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 255px;
+}
+.product-price-container p {
+  text-align: left;
+  font-size: 14px;
+  font-style: italic;
+  width: 255px;
+}
+
+.product-price-container button {
+  margin: 0px 20px 15px 20px;
+  padding: 10px 50px 10px 50px;
+  width: 80%;
+}
