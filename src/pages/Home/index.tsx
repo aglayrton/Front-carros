@@ -2,6 +2,7 @@ import { ReactComponent as MainImage } from "assets/images/car-header1.svg";
 import "./styles.css";
 import Navbar from "components/Navbar";
 import Button from "components/Button";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -23,7 +24,9 @@ const Home = () => {
 
         <div className="home-card-button">
           <div className="home-container-button">
-            <Button />
+            <NavLink to="/cars">
+              <Button />
+            </NavLink>
           </div>
           <div className="home-container-text-search">
             <p>Começe agora a navegar</p>
